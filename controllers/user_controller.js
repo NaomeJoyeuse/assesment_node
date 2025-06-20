@@ -1,4 +1,4 @@
-import { createUser, getUserById } from '../service/user_service';
+import { createUser, getUserById } from '../service/user_service.js';
 
 export function createUserController(req, res) {
   const { name, email } = req.body;
